@@ -16,15 +16,16 @@ build:
 
 requirements:
   host:
-  - pip
-  - python
-  - wheel
-  - setuptools
+    - python
+    - pip
+    - wheel
+    - setuptools
   run:
-  - isodate >=0.6.1
-  - typing-extensions >=4.6.0
-  - azure-common >=1.1
-  - azure-mgmt-core >=1.5.0
+    - python
+    - isodate >=0.6.1
+    - typing-extensions >=4.6.0
+    - azure-common >=1.1
+    - azure-mgmt-core >=1.5.0
 
 test:
   imports:
@@ -34,7 +35,6 @@ test:
     - pip check
   requires:
     - pip
-
 
 about:
   home: https://github.com/Azure/azure-sdk-for-python
